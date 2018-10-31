@@ -1,0 +1,13 @@
+n EQU 91
+r EQU 90
+ MOV A,1
+ MOV [r],A
+Volta MOV A,[r]
+ ADD A,[r]
+ MOV [r],A
+
+ MOV A,[n]
+ SUB A,1
+ MOV [n],A
+
+ JNZ Volta
