@@ -1,4 +1,4 @@
-n EQU 91
+n EQU 91    
 r EQU 90
  MOV A,1
  MOV [r],A
